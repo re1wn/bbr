@@ -31,7 +31,7 @@ def median(nums):
     sorted_nums = sorted(nums)
     n = len(sorted_nums)
     m = n - 1
-    return (sorted_nums[n/2] + sorted_nums[m/2]) / 2.0
+    return (sorted_nums[n//2] + sorted_nums[m//2]) / 2.0
 
 def main():
     """Main function to run everything."""
